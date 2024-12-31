@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: upgrade-sql-schema
-          image: alpine:latest
+          image: centos:latest
           imagePullPolicy: Never
           command: ["sleep", "5"]
       restartPolicy: Never
@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
         - name: page-up
-          image: alpine:latest
+          image: centos:latest
           imagePullPolicy: Never
           command: ["sleep", "2"]
       restartPolicy: Never
@@ -113,7 +113,7 @@ spec:
     spec:
       containers:
         - name: page-down
-          image: alpine:latest
+          image: centos:latest
           imagePullPolicy: Never
           command: ["sleep", "2"]
       restartPolicy: Never
