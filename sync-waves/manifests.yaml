@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: upgrade-sql-schema
-          image: centos:latest
+          image: centos:latest1
           imagePullPolicy: Never
           command: ["sleep", "5"]
       restartPolicy: Never
